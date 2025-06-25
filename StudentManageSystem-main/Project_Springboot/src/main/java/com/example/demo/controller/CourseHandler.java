@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/course")
 @CrossOrigin
 public class CourseHandler {
+    //这里是一个注释
     @Autowired
     private CourseRepository courseRepository;
     @GetMapping("/findAll/{page}")

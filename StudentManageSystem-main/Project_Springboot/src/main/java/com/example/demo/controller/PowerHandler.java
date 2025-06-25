@@ -14,7 +14,7 @@ import java.util.LinkedList;
 @CrossOrigin
 public class PowerHandler {
     @Autowired
-    private PowerRepository powerRepository;
+    private PowerRepository powerRepository;//这里是一个注释
     @PostMapping("/login")
     public List<Power> login(@RequestBody Power power){
         Power user;

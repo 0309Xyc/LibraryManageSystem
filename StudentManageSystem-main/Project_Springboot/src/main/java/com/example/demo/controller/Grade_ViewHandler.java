@@ -17,7 +17,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/grade_view")
 @CrossOrigin
-public class Grade_ViewHandler {
+public class Grade_ViewHandler {//这里是一个注释
     @Autowired
     private Grade_ViewRepository grade_viewRepository;
     @GetMapping("/findAll/{page}")
